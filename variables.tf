@@ -13,7 +13,7 @@ variable "instance_name" {
 variable "instance_type" {
   description = "Type of Instance to be created."
   type        = string
-  default     = "e2-micro"
+  default     = "n1-standard-1"
 }
 
 variable "disk_size" {
